@@ -27,7 +27,7 @@ class LangMap(object):
         result = list(filter(lambda pair: pair[0] == bing_code, self._map))
         if not result:
             return None
-        return result[0][0]
+        return result[0][1]
 
     def match_other(self, other_code):
         result = list(filter(lambda pair: pair[1] == other_code, self._map))

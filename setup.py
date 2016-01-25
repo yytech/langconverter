@@ -9,7 +9,7 @@ with open(os.path.join(here, 'README.rst')) as f:
 
 setup(
     name='langconverter',
-    version='0.0.0',
+    version='0.0.1',
     description='Language codes converter',
     long_description=long_description,
     url='https://github.com/FuGangqiang/',
