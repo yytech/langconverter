@@ -1,3 +1,5 @@
+# coding: utf-8
+
 class cached_property(object):
     def __init__(self, func):
         self.__doc__ = getattr(func, '__doc__')
