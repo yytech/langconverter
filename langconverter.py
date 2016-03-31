@@ -85,7 +85,8 @@ bing_nltk_map = LangMap(('en', 'en'),
                         ('zh-CHS', 'zh'),
                         ('de', 'de'),
                         ('fr', 'fr'),
-                        ('es', 'es')
+                        ('es', 'es'),
+                        ('ko', 'ko')
                         )
 
 bing_langid_map = LangMap(('en', 'en'),
@@ -93,7 +94,8 @@ bing_langid_map = LangMap(('en', 'en'),
                           ('zh-CHS', 'zh'),
                           ('de', 'de'),
                           ('fr', 'fr'),
-                          ('es', 'es')
+                          ('es', 'es'),
+                          ('ko', 'ko')
                           )
 
 bing_lang_codes = bing_nltk_map.bing_set | bing_langid_map.bing_set
