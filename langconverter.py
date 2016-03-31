@@ -83,16 +83,22 @@ class LangConverter(object):
 bing_nltk_map = LangMap(('en', 'en'),
                         ('ja', 'ja'),
                         ('zh-CHS', 'zh'),
+                        ('de', 'de'),
+                        ('fr', 'fr'),
+                        ('es', 'es')
                         )
 
 bing_langid_map = LangMap(('en', 'en'),
                           ('ja', 'ja'),
                           ('zh-CHS', 'zh'),
+                          ('de', 'de'),
+                          ('fr', 'fr'),
+                          ('es', 'es')
                           )
 
 bing_lang_codes = bing_nltk_map.bing_set | bing_langid_map.bing_set
 
 
 if __name__ == '__main__':
-    a = LangConverter.from_nltk('zh')
+    a = LangConverter.from_langid('zh')
     print(a.code)
