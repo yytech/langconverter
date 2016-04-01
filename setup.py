@@ -11,7 +11,7 @@ with open(os.path.join(here, 'README.rst'), encoding='utf-8') as f:
 
 setup(
     name='langconverter',
-    version='0.0.1',
+    version='1.0',
     description='Language codes converter',
     long_description=long_description,
     url='https://github.com/FuGangqiang/',
