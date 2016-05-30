@@ -14,7 +14,7 @@ setup(
     version='1.0',
     description='Language codes converter',
     long_description=long_description,
-    url='https://github.com/FuGangqiang/',
+    url='https://github.com/yytech/langconverter/',
     author='FuGangqiang',
     author_email='fu_gangqiang@qq.com',
     keywords='nltk langid bing',
